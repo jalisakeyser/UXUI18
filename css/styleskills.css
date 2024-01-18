@@ -1,4 +1,13 @@
-/* My UX Skills section coded using CSS flex */
+
+h1 {
+    
+    text-align: center;
+
+}
+
+
+
+
 .flexContainer {
     display: flex;
   }
@@ -19,54 +28,22 @@
   }
   
 
-header {
- 
-    
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    }
-h1 {
-    
-    text-align: center;
-
+    background-color: aqua;
 }
 
-
-
-.hard-skills 
-
-    .flexContainer {
-        display: flex;
-        flex-direction:column; 
-        width: 33%;
-        
     
-      
 
 
+.softskills {
+
+    background-color: blueviolet;
 }
 
-.soft-skills 
+.programs {
 
-    .flexContainer {
-        display: flex;
-        flex-direction:column; 
-        width: 33%;
-
-
-
+    background-color: aquamarine;
 }
 
-.programs 
-
-    .flexContainer {
-        display: flex;
-        flex-direction:column; 
-        width: 33%;
-       
-
-
-}
 
 .logo {
 
@@ -131,7 +108,7 @@ footer {
     .columnGroupTable {
         display: grid;
         grid-template-columns: 1fr;
-        margin: 0px auto;
+        text-align: center;
     }
 
     
